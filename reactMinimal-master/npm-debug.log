@@ -1,0 +1,162 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'cordova-browser@~5.0.0',
+1 verbose cli   '--production',
+1 verbose cli   '--no-save' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.2
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData cordova-browser@~5.0.0
+8 silly fetchNamedPackageData cordova-browser
+9 silly mapToRegistry name cordova-browser
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'cordova-browser',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'cordova-browser',
+12 silly mapToRegistry   name: 'cordova-browser',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/cordova-browser
+14 verbose request uri https://registry.npmjs.org/cordova-browser
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 9:49:10 PM
+17 verbose request id de066b25b1ab75f0
+18 verbose etag W/"59e922f7-3c16"
+19 verbose lastModified Thu, 19 Oct 2017 22:11:03 GMT
+20 http request GET https://registry.npmjs.org/cordova-browser
+21 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+22 info attempt registry request try #2 at 9:49:20 PM
+23 verbose etag W/"59e922f7-3c16"
+24 verbose lastModified Thu, 19 Oct 2017 22:11:03 GMT
+25 http request GET https://registry.npmjs.org/cordova-browser
+26 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+27 info attempt registry request try #3 at 9:50:20 PM
+28 verbose etag W/"59e922f7-3c16"
+29 verbose lastModified Thu, 19 Oct 2017 22:11:03 GMT
+30 http request GET https://registry.npmjs.org/cordova-browser
+31 silly get cb [ 304, undefined ]
+32 verbose etag https://registry.npmjs.org/cordova-browser from cache
+33 verbose get saving cordova-browser to C:\Users\Lavender\AppData\Roaming\npm-cache\registry.npmjs.org\cordova-browser\.cache.json
+34 verbose correctMkdir C:\Users\Lavender\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+35 silly install normalizeTree
+36 silly loadCurrentTree Finishing
+37 silly loadIdealTree Starting
+38 silly install loadIdealTree
+39 silly cloneCurrentTree Starting
+40 silly install cloneCurrentTreeToIdealTree
+41 silly cloneCurrentTree Finishing
+42 silly loadShrinkwrap Starting
+43 silly install loadShrinkwrap
+44 silly loadShrinkwrap Finishing
+45 silly loadAllDepsIntoIdealTree Starting
+46 silly install loadAllDepsIntoIdealTree
+47 silly resolveWithNewModule cordova-browser@5.0.1 checking installable status
+48 silly cache add args [ 'cordova-browser@~5.0.0', null ]
+49 verbose cache add spec cordova-browser@~5.0.0
+50 silly cache add parsed spec Result {
+50 silly cache add   raw: 'cordova-browser@~5.0.0',
+50 silly cache add   scope: null,
+50 silly cache add   escapedName: 'cordova-browser',
+50 silly cache add   name: 'cordova-browser',
+50 silly cache add   rawSpec: '~5.0.0',
+50 silly cache add   spec: '>=5.0.0 <5.1.0',
+50 silly cache add   type: 'range' }
+51 silly addNamed cordova-browser@>=5.0.0 <5.1.0
+52 verbose addNamed ">=5.0.0 <5.1.0" is a valid semver range for cordova-browser
+53 silly addNameRange { name: 'cordova-browser',
+53 silly addNameRange   range: '>=5.0.0 <5.1.0',
+53 silly addNameRange   hasData: false }
+54 silly mapToRegistry name cordova-browser
+55 silly mapToRegistry using default registry
+56 silly mapToRegistry registry https://registry.npmjs.org/
+57 silly mapToRegistry data Result {
+57 silly mapToRegistry   raw: 'cordova-browser',
+57 silly mapToRegistry   scope: null,
+57 silly mapToRegistry   escapedName: 'cordova-browser',
+57 silly mapToRegistry   name: 'cordova-browser',
+57 silly mapToRegistry   rawSpec: '',
+57 silly mapToRegistry   spec: 'latest',
+57 silly mapToRegistry   type: 'tag' }
+58 silly mapToRegistry uri https://registry.npmjs.org/cordova-browser
+59 verbose addNameRange registry:https://registry.npmjs.org/cordova-browser not in flight; fetching
+60 verbose get https://registry.npmjs.org/cordova-browser not expired, no request
+61 silly addNameRange number 2 { name: 'cordova-browser',
+61 silly addNameRange   range: '>=5.0.0 <5.1.0',
+61 silly addNameRange   hasData: true }
+62 silly addNameRange versions [ 'cordova-browser',
+62 silly addNameRange   [ '3.5.0',
+62 silly addNameRange     '3.5.1',
+62 silly addNameRange     '3.5.2',
+62 silly addNameRange     '3.6.0',
+62 silly addNameRange     '4.0.0',
+62 silly addNameRange     '4.1.0',
+62 silly addNameRange     '5.0.0',
+62 silly addNameRange     '5.0.1' ] ]
+63 silly addNamed cordova-browser@5.0.1
+64 verbose addNamed "5.0.1" is a plain semver version for cordova-browser
+65 silly mapToRegistry name cordova-browser
+66 silly mapToRegistry using default registry
+67 silly mapToRegistry registry https://registry.npmjs.org/
+68 silly mapToRegistry data Result {
+68 silly mapToRegistry   raw: 'cordova-browser',
+68 silly mapToRegistry   scope: null,
+68 silly mapToRegistry   escapedName: 'cordova-browser',
+68 silly mapToRegistry   name: 'cordova-browser',
+68 silly mapToRegistry   rawSpec: '',
+68 silly mapToRegistry   spec: 'latest',
+68 silly mapToRegistry   type: 'tag' }
+69 silly mapToRegistry uri https://registry.npmjs.org/cordova-browser
+70 verbose addRemoteTarball https://registry.npmjs.org/cordova-browser/-/cordova-browser-5.0.1.tgz not in flight; adding
+71 verbose addRemoteTarball [ 'https://registry.npmjs.org/cordova-browser/-/cordova-browser-5.0.1.tgz',
+71 verbose addRemoteTarball   '552faca6339245004bbe0acef7d5e3959947c127' ]
+72 info retry fetch attempt 1 at 9:50:21 PM
+73 info attempt registry request try #1 at 9:50:21 PM
+74 http fetch GET https://registry.npmjs.org/cordova-browser/-/cordova-browser-5.0.1.tgz
+75 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+76 info attempt registry request try #2 at 9:50:31 PM
+77 http fetch GET https://registry.npmjs.org/cordova-browser/-/cordova-browser-5.0.1.tgz
+78 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+79 info attempt registry request try #3 at 9:51:31 PM
+80 http fetch GET https://registry.npmjs.org/cordova-browser/-/cordova-browser-5.0.1.tgz
+81 error fetch failed https://registry.npmjs.org/cordova-browser/-/cordova-browser-5.0.1.tgz
+82 warn retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+83 info retry fetch attempt 2 at 9:51:52 PM
+84 info attempt registry request try #1 at 9:51:52 PM
+85 http fetch GET https://registry.npmjs.org/cordova-browser/-/cordova-browser-5.0.1.tgz
+86 http fetch 200 https://registry.npmjs.org/cordova-browser/-/cordova-browser-5.0.1.tgz
+87 info retry will retry, error on last attempt: Error: read ECONNRESET
+88 silly fetchAndShaCheck shasum 552faca6339245004bbe0acef7d5e3959947c127
+89 silly rollbackFailedOptional Starting
+90 silly rollbackFailedOptional Finishing
+91 silly runTopLevelLifecycles Finishing
+92 silly install printInstalled
+93 verbose stack Error: shasum check failed for C:\Users\Lavender\AppData\Local\Temp\npm-7640-b7c256ce\registry.npmjs.org\cordova-browser\-\cordova-browser-5.0.1.tgz
+93 verbose stack Expected: 552faca6339245004bbe0acef7d5e3959947c127
+93 verbose stack Actual:   64541680486226de8e8d2a7707bd361fbc537073
+93 verbose stack From:     https://registry.npmjs.org/cordova-browser/-/cordova-browser-5.0.1.tgz
+93 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\sha\index.js:25:8
+93 verbose stack     at ReadStream.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\sha\index.js:72:7)
+93 verbose stack     at emitNone (events.js:91:20)
+93 verbose stack     at ReadStream.emit (events.js:185:7)
+93 verbose stack     at endReadableNT (_stream_readable.js:974:12)
+93 verbose stack     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+93 verbose stack     at process._tickCallback (internal/process/next_tick.js:104:9)
+94 verbose cwd C:\wamp64\www\reactMinimal-master
+95 error Windows_NT 10.0.14393
+96 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "cordova-browser@~5.0.0" "--production" "--no-save"
+97 error node v6.11.2
+98 error npm  v3.10.10
+99 error shasum check failed for C:\Users\Lavender\AppData\Local\Temp\npm-7640-b7c256ce\registry.npmjs.org\cordova-browser\-\cordova-browser-5.0.1.tgz
+99 error Expected: 552faca6339245004bbe0acef7d5e3959947c127
+99 error Actual:   64541680486226de8e8d2a7707bd361fbc537073
+99 error From:     https://registry.npmjs.org/cordova-browser/-/cordova-browser-5.0.1.tgz
+100 error If you need help, you may report this error at:
+100 error     <https://github.com/npm/npm/issues>
+101 verbose exit [ 1, true ]
